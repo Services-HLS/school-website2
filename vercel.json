@@ -1,9 +1,13 @@
 {
   "version": 2,
+  "framework": "vite",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "outputDirectory": ".output/public",
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
   ]
 }
